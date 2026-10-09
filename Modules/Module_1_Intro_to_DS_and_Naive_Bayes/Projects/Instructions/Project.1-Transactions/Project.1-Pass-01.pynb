@@ -20,13 +20,15 @@
       "source": [
         "## Problem Definition\n",
         "\n",
-        "1. State the business problem. Translate the business problem into a Data"
+        "1. Business problem: Predict wheather a customer will make a transaction,"
       ]
     },
     {
       "cell_type": "markdown",
       "source": [
-        "Science problem by stating what kind of problem it is ( supervised vs unsupervised ) and whether it is a classification, regression, or clustering problem.  Mention which model will be used, if known.\n",
+        "Data Science problem: This supervised learining and classification problem.\n",
+        "\n",
+        "by stating what kind of problem it is ( supervised vs unsupervised ) and whether it is a classification, regression, or clustering problem.  Mention which model will be used, if known.\n",
         "\n"
       ],
       "metadata": {
@@ -156,12 +158,12 @@
       ],
       "metadata": {
         "collapsed": true,
-        "id": "l8E0Y9z4qIqD",
-        "outputId": "a7f1e3d8-277f-4c18-9def-e31e54ed7da8",
         "colab": {
           "base_uri": "https://localhost:8080/",
           "height": 273
-        }
+        },
+        "id": "l8E0Y9z4qIqD",
+        "outputId": "a7f1e3d8-277f-4c18-9def-e31e54ed7da8"
       },
       "id": "l8E0Y9z4qIqD",
       "execution_count": 17,
@@ -473,12 +475,12 @@
       ],
       "metadata": {
         "collapsed": true,
-        "id": "TvgmkLq2qhwF",
-        "outputId": "2b4a01cf-9c22-4705-a0bd-b982e0c7edd6",
         "colab": {
           "base_uri": "https://localhost:8080/",
           "height": 273
-        }
+        },
+        "id": "TvgmkLq2qhwF",
+        "outputId": "2b4a01cf-9c22-4705-a0bd-b982e0c7edd6"
       },
       "id": "TvgmkLq2qhwF",
       "execution_count": 18,
@@ -788,11 +790,11 @@
         "transaction_df.shape"
       ],
       "metadata": {
-        "id": "sOw_YZcnqtRF",
-        "outputId": "d3f23e52-8328-4a20-c8eb-e403da85c7e1",
         "colab": {
           "base_uri": "https://localhost:8080/"
-        }
+        },
+        "id": "sOw_YZcnqtRF",
+        "outputId": "d3f23e52-8328-4a20-c8eb-e403da85c7e1"
       },
       "id": "sOw_YZcnqtRF",
       "execution_count": 19,
@@ -826,11 +828,11 @@
         "transaction_df.size"
       ],
       "metadata": {
-        "id": "gOdmFEssq9WN",
-        "outputId": "87c1d735-2c23-4ac5-91af-d6a3f0fb1d58",
         "colab": {
           "base_uri": "https://localhost:8080/"
-        }
+        },
+        "id": "gOdmFEssq9WN",
+        "outputId": "87c1d735-2c23-4ac5-91af-d6a3f0fb1d58"
       },
       "id": "gOdmFEssq9WN",
       "execution_count": 21,
@@ -865,14 +867,14 @@
       ],
       "metadata": {
         "collapsed": true,
-        "id": "v9Ss_FllrV0z",
-        "outputId": "a08212e2-1172-4f2f-9aff-ac6b7b471a0a",
         "colab": {
           "base_uri": "https://localhost:8080/"
-        }
+        },
+        "id": "v9Ss_FllrV0z",
+        "outputId": "45009583-3eaa-46b6-c8cd-89a18fee7c18"
       },
       "id": "v9Ss_FllrV0z",
-      "execution_count": 22,
+      "execution_count": 29,
       "outputs": [
         {
           "output_type": "stream",
@@ -970,12 +972,12 @@
       ],
       "metadata": {
         "collapsed": true,
-        "id": "IhJgcIVcrixS",
-        "outputId": "2c07e9c5-7bcd-4161-de2e-66ac06ee3656",
         "colab": {
           "base_uri": "https://localhost:8080/",
           "height": 350
-        }
+        },
+        "id": "IhJgcIVcrixS",
+        "outputId": "2c07e9c5-7bcd-4161-de2e-66ac06ee3656"
       },
       "id": "IhJgcIVcrixS",
       "execution_count": 23,
@@ -1396,12 +1398,12 @@
         "transaction_df['target'].value_counts(dropna=False)"
       ],
       "metadata": {
-        "id": "gbq-Xt8du9e9",
-        "outputId": "4f69ef2f-7655-4eb9-c169-aa3fca460810",
         "colab": {
           "base_uri": "https://localhost:8080/",
           "height": 178
-        }
+        },
+        "id": "gbq-Xt8du9e9",
+        "outputId": "4f69ef2f-7655-4eb9-c169-aa3fca460810"
       },
       "id": "gbq-Xt8du9e9",
       "execution_count": 24,
@@ -1467,12 +1469,12 @@
         "transaction_df['target'].value_counts(normalize=True, dropna=False)"
       ],
       "metadata": {
-        "id": "W2379wgXvnx0",
-        "outputId": "c110ded4-d069-48ef-9065-596711c18a9e",
         "colab": {
           "base_uri": "https://localhost:8080/",
           "height": 178
-        }
+        },
+        "id": "W2379wgXvnx0",
+        "outputId": "c110ded4-d069-48ef-9065-596711c18a9e"
       },
       "id": "W2379wgXvnx0",
       "execution_count": 25,
@@ -1549,12 +1551,12 @@
       ],
       "metadata": {
         "collapsed": true,
-        "id": "sO0p-qulrxog",
-        "outputId": "53740095-8208-4f36-f322-ee2427b60b70",
         "colab": {
           "base_uri": "https://localhost:8080/",
           "height": 1000
-        }
+        },
+        "id": "sO0p-qulrxog",
+        "outputId": "53740095-8208-4f36-f322-ee2427b60b70"
       },
       "id": "sO0p-qulrxog",
       "execution_count": 26,
@@ -1881,15 +1883,15 @@
       ],
       "metadata": {
         "collapsed": true,
-        "id": "jFiVlcWbx9Md",
-        "outputId": "ebb6a070-e8b9-4f01-dc93-e2872a731192",
         "colab": {
           "base_uri": "https://localhost:8080/",
           "height": 1000
-        }
+        },
+        "id": "jFiVlcWbx9Md",
+        "outputId": "10f589df-1083-452c-98ee-dfa665f54cfc"
       },
       "id": "jFiVlcWbx9Md",
-      "execution_count": 27,
+      "execution_count": 28,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -2191,7 +2193,367 @@
             ]
           },
           "metadata": {},
-          "execution_count": 27
+          "execution_count": 28
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "###Unique elements"
+      ],
+      "metadata": {
+        "id": "jBgtYuxqrxTb"
+      },
+      "id": "jBgtYuxqrxTb"
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# number of unique elements in every column (works on the whole dataframe)\n",
+        "transaction_df.nunique().sort_values(ascending=False)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 1000
+        },
+        "id": "3Ygjptblrmz0",
+        "outputId": "db144771-6d58-4a47-d32f-11b34c830973"
+      },
+      "id": "3Ygjptblrmz0",
+      "execution_count": 33,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "Unnamed: 0    180000\n",
+              "ID_code       180000\n",
+              "var_35        137280\n",
+              "var_45        134537\n",
+              "var_13        131746\n",
+              "var_21        130573\n",
+              "var_8         130208\n",
+              "var_7         129702\n",
+              "var_17        129453\n",
+              "var_33        128142\n",
+              "var_16        127809\n",
+              "var_31        127689\n",
+              "var_19        127006\n",
+              "var_43        125668\n",
+              "var_42        119849\n",
+              "var_14        119476\n",
+              "var_10        118977\n",
+              "var_37        115230\n",
+              "var_29        114505\n",
+              "var_36        112328\n",
+              "var_38        112124\n",
+              "var_6         108599\n",
+              "var_46        108401\n",
+              "var_41        107417\n",
+              "var_11        106142\n",
+              "var_26        106000\n",
+              "var_22        104710\n",
+              "var_1         103081\n",
+              "var_27        100528\n",
+              "var_0          90443\n",
+              "var_47         89982\n",
+              "var_49         89845\n",
+              "var_9          86773\n",
+              "var_44         86228\n",
+              "var_23         85501\n",
+              "var_28         83117\n",
+              "var_2          83041\n",
+              "var_32         80967\n",
+              "var_20         76198\n",
+              "var_18         69951\n",
+              "var_24         67117\n",
+              "var_48         57444\n",
+              "var_4          48476\n",
+              "var_3          37907\n",
+              "var_15         32995\n",
+              "var_12         24845\n",
+              "var_30         19006\n",
+              "var_40         18053\n",
+              "var_39         17760\n",
+              "var_34         10512\n",
+              "var_5           9500\n",
+              "var_25          8479\n",
+              "target             2\n",
+              "dtype: int64"
+            ],
+            "text/html": [
+              "<div>\n",
+              "<style scoped>\n",
+              "    .dataframe tbody tr th:only-of-type {\n",
+              "        vertical-align: middle;\n",
+              "    }\n",
+              "\n",
+              "    .dataframe tbody tr th {\n",
+              "        vertical-align: top;\n",
+              "    }\n",
+              "\n",
+              "    .dataframe thead th {\n",
+              "        text-align: right;\n",
+              "    }\n",
+              "</style>\n",
+              "<table border=\"1\" class=\"dataframe\">\n",
+              "  <thead>\n",
+              "    <tr style=\"text-align: right;\">\n",
+              "      <th></th>\n",
+              "      <th>0</th>\n",
+              "    </tr>\n",
+              "  </thead>\n",
+              "  <tbody>\n",
+              "    <tr>\n",
+              "      <th>Unnamed: 0</th>\n",
+              "      <td>180000</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>ID_code</th>\n",
+              "      <td>180000</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>var_35</th>\n",
+              "      <td>137280</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>var_45</th>\n",
+              "      <td>134537</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>var_13</th>\n",
+              "      <td>131746</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>var_21</th>\n",
+              "      <td>130573</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>var_8</th>\n",
+              "      <td>130208</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>var_7</th>\n",
+              "      <td>129702</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>var_17</th>\n",
+              "      <td>129453</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>var_33</th>\n",
+              "      <td>128142</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>var_16</th>\n",
+              "      <td>127809</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>var_31</th>\n",
+              "      <td>127689</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>var_19</th>\n",
+              "      <td>127006</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>var_43</th>\n",
+              "      <td>125668</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>var_42</th>\n",
+              "      <td>119849</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>var_14</th>\n",
+              "      <td>119476</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>var_10</th>\n",
+              "      <td>118977</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>var_37</th>\n",
+              "      <td>115230</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>var_29</th>\n",
+              "      <td>114505</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>var_36</th>\n",
+              "      <td>112328</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>var_38</th>\n",
+              "      <td>112124</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>var_6</th>\n",
+              "      <td>108599</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>var_46</th>\n",
+              "      <td>108401</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>var_41</th>\n",
+              "      <td>107417</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>var_11</th>\n",
+              "      <td>106142</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>var_26</th>\n",
+              "      <td>106000</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>var_22</th>\n",
+              "      <td>104710</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>var_1</th>\n",
+              "      <td>103081</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>var_27</th>\n",
+              "      <td>100528</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>var_0</th>\n",
+              "      <td>90443</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>var_47</th>\n",
+              "      <td>89982</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>var_49</th>\n",
+              "      <td>89845</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>var_9</th>\n",
+              "      <td>86773</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>var_44</th>\n",
+              "      <td>86228</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>var_23</th>\n",
+              "      <td>85501</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>var_28</th>\n",
+              "      <td>83117</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>var_2</th>\n",
+              "      <td>83041</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>var_32</th>\n",
+              "      <td>80967</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>var_20</th>\n",
+              "      <td>76198</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>var_18</th>\n",
+              "      <td>69951</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>var_24</th>\n",
+              "      <td>67117</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>var_48</th>\n",
+              "      <td>57444</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>var_4</th>\n",
+              "      <td>48476</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>var_3</th>\n",
+              "      <td>37907</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>var_15</th>\n",
+              "      <td>32995</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>var_12</th>\n",
+              "      <td>24845</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>var_30</th>\n",
+              "      <td>19006</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>var_40</th>\n",
+              "      <td>18053</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>var_39</th>\n",
+              "      <td>17760</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>var_34</th>\n",
+              "      <td>10512</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>var_5</th>\n",
+              "      <td>9500</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>var_25</th>\n",
+              "      <td>8479</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>target</th>\n",
+              "      <td>2</td>\n",
+              "    </tr>\n",
+              "  </tbody>\n",
+              "</table>\n",
+              "</div><br><label><b>dtype:</b> int64</label>"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 33
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# actual unique values in one colum\n",
+        "transaction_df['target'].unique()"
+      ],
+      "metadata": {
+        "collapsed": true,
+        "id": "bu_W-J7b0RCQ",
+        "outputId": "02e98fca-d4be-4cda-8245-a5f5db53bcf4",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "id": "bu_W-J7b0RCQ",
+      "execution_count": 32,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "array([0, 1])"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 32
         }
       ]
     },
@@ -2204,26 +2566,6 @@
         "id": "4WtHEhA0rnPk"
       },
       "id": "4WtHEhA0rnPk"
-    },
-    {
-      "cell_type": "code",
-      "source": [],
-      "metadata": {
-        "id": "3Ygjptblrmz0"
-      },
-      "id": "3Ygjptblrmz0",
-      "execution_count": null,
-      "outputs": []
-    },
-    {
-      "cell_type": "markdown",
-      "source": [
-        "###Unique elements"
-      ],
-      "metadata": {
-        "id": "jBgtYuxqrxTb"
-      },
-      "id": "jBgtYuxqrxTb"
     },
     {
       "cell_type": "code",
