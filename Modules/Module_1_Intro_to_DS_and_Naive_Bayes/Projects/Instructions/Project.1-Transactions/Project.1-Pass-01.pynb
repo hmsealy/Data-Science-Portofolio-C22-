@@ -19,16 +19,25 @@
       },
       "source": [
         "## Problem Definition\n",
-        "\n",
-        "1. Business problem: Predict wheather a customer will make a transaction,"
+        "\n"
       ]
     },
     {
       "cell_type": "markdown",
       "source": [
-        "Data Science problem: This supervised learining and classification problem.\n",
+        "Business problem: Predict wheather a customer will make a transaction,"
+      ],
+      "metadata": {
+        "id": "8dxCG4-iE66v"
+      },
+      "id": "8dxCG4-iE66v"
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Data Science problem: This supervised learining and classification problem. I will use the Gaussian Naive Bayes model\n",
         "\n",
-        "by stating what kind of problem it is ( supervised vs unsupervised ) and whether it is a classification, regression, or clustering problem.  Mention which model will be used, if known.\n",
+        "\n",
         "\n"
       ],
       "metadata": {
@@ -160,7 +169,7 @@
         "collapsed": true,
         "colab": {
           "base_uri": "https://localhost:8080/",
-          "height": 273
+          "height": 272
         },
         "id": "l8E0Y9z4qIqD",
         "outputId": "a7f1e3d8-277f-4c18-9def-e31e54ed7da8"
@@ -477,7 +486,7 @@
         "collapsed": true,
         "colab": {
           "base_uri": "https://localhost:8080/",
-          "height": 273
+          "height": 0
         },
         "id": "TvgmkLq2qhwF",
         "outputId": "2b4a01cf-9c22-4705-a0bd-b982e0c7edd6"
@@ -974,7 +983,7 @@
         "collapsed": true,
         "colab": {
           "base_uri": "https://localhost:8080/",
-          "height": 350
+          "height": 349
         },
         "id": "IhJgcIVcrixS",
         "outputId": "2c07e9c5-7bcd-4161-de2e-66ac06ee3656"
@@ -1398,9 +1407,10 @@
         "transaction_df['target'].value_counts(dropna=False)"
       ],
       "metadata": {
+        "collapsed": true,
         "colab": {
           "base_uri": "https://localhost:8080/",
-          "height": 178
+          "height": 0
         },
         "id": "gbq-Xt8du9e9",
         "outputId": "4f69ef2f-7655-4eb9-c169-aa3fca460810"
@@ -1471,8 +1481,9 @@
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/",
-          "height": 178
+          "height": 0
         },
+        "collapsed": true,
         "id": "W2379wgXvnx0",
         "outputId": "c110ded4-d069-48ef-9065-596711c18a9e"
       },
@@ -1553,7 +1564,7 @@
         "collapsed": true,
         "colab": {
           "base_uri": "https://localhost:8080/",
-          "height": 1000
+          "height": 0
         },
         "id": "sO0p-qulrxog",
         "outputId": "53740095-8208-4f36-f322-ee2427b60b70"
@@ -1885,7 +1896,7 @@
         "collapsed": true,
         "colab": {
           "base_uri": "https://localhost:8080/",
-          "height": 1000
+          "height": 0
         },
         "id": "jFiVlcWbx9Md",
         "outputId": "10f589df-1083-452c-98ee-dfa665f54cfc"
@@ -2216,8 +2227,9 @@
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/",
-          "height": 1000
+          "height": 0
         },
+        "collapsed": true,
         "id": "3Ygjptblrmz0",
         "outputId": "db144771-6d58-4a47-d32f-11b34c830973"
       },
@@ -2536,11 +2548,11 @@
       ],
       "metadata": {
         "collapsed": true,
-        "id": "bu_W-J7b0RCQ",
-        "outputId": "02e98fca-d4be-4cda-8245-a5f5db53bcf4",
         "colab": {
           "base_uri": "https://localhost:8080/"
-        }
+        },
+        "id": "bu_W-J7b0RCQ",
+        "outputId": "02e98fca-d4be-4cda-8245-a5f5db53bcf4"
       },
       "id": "bu_W-J7b0RCQ",
       "execution_count": 32,
@@ -2559,26 +2571,6 @@
     },
     {
       "cell_type": "markdown",
-      "source": [
-        "### Nunique"
-      ],
-      "metadata": {
-        "id": "4WtHEhA0rnPk"
-      },
-      "id": "4WtHEhA0rnPk"
-    },
-    {
-      "cell_type": "code",
-      "source": [],
-      "metadata": {
-        "id": "eYNlL83Pr7Oj"
-      },
-      "id": "eYNlL83Pr7Oj",
-      "execution_count": null,
-      "outputs": []
-    },
-    {
-      "cell_type": "markdown",
       "id": "cbdc4672",
       "metadata": {
         "id": "cbdc4672"
@@ -2590,194 +2582,188 @@
     },
     {
       "cell_type": "markdown",
-      "id": "723e2a26",
-      "metadata": {
-        "id": "723e2a26"
-      },
       "source": [
-        "4. Examine the data using tools we have used in class. You should be identifying the various columns such as ...\n",
-        "\n",
-        "    "
+        "Backup #1"
+      ],
+      "metadata": {
+        "id": "2MSnBhtzHeik"
+      },
+      "id": "2MSnBhtzHeik"
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# backu copy of the originial data\n",
+        "transaction_df_backup= transaction_df.copy()\n"
+      ],
+      "metadata": {
+        "id": "55y5KzhYHuss"
+      },
+      "id": "55y5KzhYHuss",
+      "execution_count": 37,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# restore from backup\n",
+        "transaction_df=transaction_df_backup.copy()"
+      ],
+      "metadata": {
+        "id": "qecL3fCFH1qP"
+      },
+      "id": "qecL3fCFH1qP",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "### Keep only the target and featues"
+      ],
+      "metadata": {
+        "id": "qUIv_kpkILBl"
+      },
+      "id": "qUIv_kpkILBl"
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Selected `target` for the target and `var0 through var49` for the features"
+      ],
+      "metadata": {
+        "id": "Yn1tTSqRIrgH"
+      },
+      "id": "Yn1tTSqRIrgH"
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# select the target\n",
+        "transaction_df_target=transaction_df_backup [['target']]\n"
+      ],
+      "metadata": {
+        "id": "esBw2-hkIolV"
+      },
+      "id": "esBw2-hkIolV",
+      "execution_count": 38,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# select the features\n",
+        "feature_cols =[] #start with an empty list to hold the features\n",
+        "for col in transaction_df.columns: #look at each column name\n",
+        "  if col.startswith ('var_'): #if the name start with 'var_, it's a feature\n",
+        "    feature_cols.append(col)\n",
+        "# check the list (show 50 names)\n",
+        "print(feature_cols)\n",
+        "print(len(feature_cols))"
+      ],
+      "metadata": {
+        "collapsed": true,
+        "id": "AHVqHXdGL2gU",
+        "outputId": "19fd738a-b6ea-468b-ea50-6acf0f1d2214",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "id": "AHVqHXdGL2gU",
+      "execution_count": 46,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "['var_0', 'var_1', 'var_2', 'var_3', 'var_4', 'var_5', 'var_6', 'var_7', 'var_8', 'var_9', 'var_10', 'var_11', 'var_12', 'var_13', 'var_14', 'var_15', 'var_16', 'var_17', 'var_18', 'var_19', 'var_20', 'var_21', 'var_22', 'var_23', 'var_24', 'var_25', 'var_26', 'var_27', 'var_28', 'var_29', 'var_30', 'var_31', 'var_32', 'var_33', 'var_34', 'var_35', 'var_36', 'var_37', 'var_38', 'var_39', 'var_40', 'var_41', 'var_42', 'var_43', 'var_44', 'var_45', 'var_46', 'var_47', 'var_48', 'var_49']\n",
+            "50\n"
+          ]
+        }
       ]
     },
     {
-      "cell_type": "markdown",
+      "cell_type": "code",
       "source": [
-        "- target column\n",
-        "   "
+        "# select the target and the features\n",
+        "transaction_df_target_feature = transaction_df[['target'] + feature_cols]\n",
+        "transaction_df_target_feature.shape #verify\n"
       ],
       "metadata": {
-        "id": "Luu-bp-yF0KR"
+        "id": "H4On7uHEN5hm",
+        "outputId": "4233af7e-968b-47e3-870a-b41788c57452",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
       },
-      "id": "Luu-bp-yF0KR"
+      "id": "H4On7uHEN5hm",
+      "execution_count": 47,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "(180000, 51)"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 47
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "V16DrMtJTnv1"
+      },
+      "id": "V16DrMtJTnv1",
+      "execution_count": null,
+      "outputs": []
     },
     {
       "cell_type": "markdown",
       "source": [
-        " - feature columns\n",
-        "   "
-      ],
-      "metadata": {
-        "id": "RQpYUI1tFyvr"
-      },
-      "id": "RQpYUI1tFyvr"
-    },
-    {
-      "cell_type": "markdown",
-      "source": [
-        " - identifier columns\n",
-        "    "
-      ],
-      "metadata": {
-        "id": "_Qir71ggFxd5"
-      },
-      "id": "_Qir71ggFxd5"
-    },
-    {
-      "cell_type": "markdown",
-      "source": [
-        "- null columns\n",
-        "    "
-      ],
-      "metadata": {
-        "id": "7Zx3Vsn8FwW4"
-      },
-      "id": "7Zx3Vsn8FwW4"
-    },
-    {
-      "cell_type": "markdown",
-      "source": [
-        "- null rows\n",
+        "## Recommendations for Data Cleaning\n",
         "\n",
-        "    "
-      ],
-      "metadata": {
-        "id": "ZTn0-8O_Ft2x"
-      },
-      "id": "ZTn0-8O_Ft2x"
-    },
-    {
-      "cell_type": "markdown",
-      "source": [
-        "Tools you should be using include, but are not limited to:\n",
+        "**1. Indentifier Columns**\n",
+        "- **Two columns:** `Unnames: 0` is row numbers and `ID_code` is customer ID. cannot help predict anything\n",
+        "- **Recommendation:** Drop both columns. (I kept only `target` and `var_0` to `var_49`.)\n",
         "\n",
-        "   "
+        "**2.Null values:** No feature column have nulls. no action needed\n"
       ],
       "metadata": {
-        "id": "grtuWyJeFsUu"
+        "id": "_tP358dmTWxU"
       },
-      "id": "grtuWyJeFsUu"
+      "id": "_tP358dmTWxU"
     },
     {
       "cell_type": "markdown",
       "source": [
-        " - head\n",
-        "    "
+        "## Exploratory Data Analysis ##"
       ],
       "metadata": {
-        "id": "FiDtPtUpFqGz"
+        "id": "Ws78K_6ATWlC"
       },
-      "id": "FiDtPtUpFqGz"
+      "id": "Ws78K_6ATWlC"
     },
     {
       "cell_type": "markdown",
-      "source": [
-        "- tail\n",
-        "    "
-      ],
+      "source": [],
       "metadata": {
-        "id": "jH9jiqV_FobA"
+        "id": "JMqOKwGGVauU"
       },
-      "id": "jH9jiqV_FobA"
+      "id": "JMqOKwGGVauU"
     },
     {
-      "cell_type": "markdown",
-      "source": [
-        "- shape\n",
-        "    "
-      ],
+      "cell_type": "code",
+      "source": [],
       "metadata": {
-        "id": "W9R96k1CFmys"
+        "id": "LJAJuP2DVarE"
       },
-      "id": "W9R96k1CFmys"
-    },
-    {
-      "cell_type": "markdown",
-      "source": [
-        "- size\n",
-        "    "
-      ],
-      "metadata": {
-        "id": "gEI8Ccv-Flaq"
-      },
-      "id": "gEI8Ccv-Flaq"
-    },
-    {
-      "cell_type": "markdown",
-      "source": [
-        "- info\n",
-        "   "
-      ],
-      "metadata": {
-        "id": "8lmz8U99FjAJ"
-      },
-      "id": "8lmz8U99FjAJ"
-    },
-    {
-      "cell_type": "markdown",
-      "source": [
-        " - describe\n",
-        "   "
-      ],
-      "metadata": {
-        "id": "rcgkFxivFhlg"
-      },
-      "id": "rcgkFxivFhlg"
-    },
-    {
-      "cell_type": "markdown",
-      "source": [
-        " - nunique\n",
-        "   "
-      ],
-      "metadata": {
-        "id": "_BAJc2UKFf2j"
-      },
-      "id": "_BAJc2UKFf2j"
-    },
-    {
-      "cell_type": "markdown",
-      "source": [
-        " - unique\n",
-        "  "
-      ],
-      "metadata": {
-        "id": "t_bbPiTsFeeF"
-      },
-      "id": "t_bbPiTsFeeF"
-    },
-    {
-      "cell_type": "markdown",
-      "source": [
-        "  - isnull/isna\n",
-        "\n",
-        "\n"
-      ],
-      "metadata": {
-        "id": "iggUk5AJFcaZ"
-      },
-      "id": "iggUk5AJFcaZ"
-    },
-    {
-      "cell_type": "markdown",
-      "source": [
-        "1. NOTE: the ‘target’ column indicates a successful transaction (‘1’) or a no-transaction (‘0’). Verify these are the only values in that column, and that there are no nulls.\n",
-        "\n"
-      ],
-      "metadata": {
-        "id": "Rl9GYP0sFZV8"
-      },
-      "id": "Rl9GYP0sFZV8"
+      "id": "LJAJuP2DVarE",
+      "execution_count": null,
+      "outputs": []
     },
     {
       "cell_type": "markdown",
@@ -2786,13 +2772,7 @@
         "id": "47be2699"
       },
       "source": [
-        "1. If there are data cleaning issues, develop recommendations for how to deal with them.  Specifically, handle these common issues:\n",
         "\n",
-        "    - identifer columns\n",
-        "    - target column with null counts\n",
-        "    - feature columns with high null counts\n",
-        "    - feature columns with low null counts\n",
-        "    - feature columns with medium null counts\n",
         "\n",
         "## Exploratory Data Analysis\n",
         "\n",
